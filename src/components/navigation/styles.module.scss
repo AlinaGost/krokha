@@ -1,0 +1,21 @@
+@import "../../vars";
+
+.navigation {
+  margin: 42px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+
+  padding-right: 155px;
+  padding-left: 135.5px;
+}
+
+.link {
+  text-decoration: none;
+  color: $grey;
+  font-size: $basic_font_size;
+  font-family: $font_family;
+  font-weight: $regular;
+}
